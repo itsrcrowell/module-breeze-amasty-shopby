@@ -11,48 +11,46 @@
                                 <item name="path" xsi:type="string">Amasty_Shopby/js/utils/helpers</item>
                             </item>
 
-                            <item name="Amasty_Shopby/js/amShopby" xsi:type="array">
+                            <item name="amShopbyFilterAbstract" xsi:type="array">
                                 <item name="path" xsi:type="string">Amasty_Shopby/js/amShopby</item>
                             </item>
 
-                            <item name="amShopby-register" xsi:type="array">
-                                <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/amShopby-register</item>
+                            <item name="amShopbyFilterContainer" xsi:type="array">
+                                <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/components/amShopbyFilterContainer</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
+                                    <item name="amShopbyFiltersSync" xsi:type="string">amShopbyFiltersSync</item>
+                                </item>
                             </item>
 
-                            <item name="Amasty_Shopby/js/components/amShopbyFilterContainer" xsi:type="array">
-                                <item name="path" xsi:type="string">Amasty_Shopby/js/components/amShopbyFilterContainer</item>
-                            </item>
-
-                            <item name="amShopbyFilterContainer-register" xsi:type="array">
-                                <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/amShopbyFilterContainer-register</item>
-                            </item>
-
-                            <item name="Amasty_Shopby/js/components/amShopbyFilterFromTo" xsi:type="array">
+                            <item name="amShopbyFilterFromTo" xsi:type="array">
                                 <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/components/amShopbyFilterFromTo</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
+                                    <item name="amShopbyHelpers" xsi:type="string">amShopbyHelpers</item>
+                                </item>
                             </item>
 
-                            <item name="amShopbyFilterFromTo-register" xsi:type="array">
-                                <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/amShopbyFilterFromTo-register</item>
-                            </item>
-
-                            <item name="Amasty_Shopby/js/amShopbyFiltersSync" xsi:type="array">
+                            <item name="amShopbyFiltersSync" xsi:type="array">
                                 <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/amShopbyFiltersSync</item>
                             </item>
 
-                            <item name="Amasty_Shopby/js/amShopbyTopFilters" xsi:type="array">
+                            <item name="amShopbyTopFilters" xsi:type="array">
                                 <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/amShopbyTopFilters</item>
                             </item>
 
-                            <item name="Amasty_Shopby/js/amShopbyResponsive" xsi:type="array">
+                            <item name="amShopbyResponsive" xsi:type="array">
                                 <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/amShopbyResponsive</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyTopFilters" xsi:type="string">amShopbyTopFilters</item>
+                                </item>
                             </item>
 
                             <item name="Amasty_Shopby/js/components/amShopbyFilterCollapse" xsi:type="array">
                                 <item name="path" xsi:type="string">Amasty_Shopby/js/components/amShopbyFilterCollapse</item>
-                            </item>
-
-                            <item name="amShopbyFilterCollapse-register" xsi:type="array">
-                                <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/amShopbyFilterCollapse-register</item>
                             </item>
 
                             <item name="amShopbySwiperSlider" xsi:type="array">

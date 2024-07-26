@@ -41,7 +41,9 @@ define([
 
             // Breeze fix: prevent dropdown closing on content click
             $(self.element).parents('.filter-options-content').on('click', function(e) {
-                e.stopPropagation();
+                if ($(e.target).parents('li.item').length == 0) {
+                    e.stopPropagation();
+                }
             });
         },
 

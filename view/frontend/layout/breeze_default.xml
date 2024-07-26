@@ -30,6 +30,7 @@
                                 <item name="import" xsi:type="array">
                                     <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
                                     <item name="amShopbyHelpers" xsi:type="string">amShopbyHelpers</item>
+                                    <item name="amShopbyFiltersSync" xsi:type="string">amShopbyFiltersSync</item>
                                 </item>
                             </item>
 
@@ -59,6 +60,14 @@
 
                             <item name="Amasty_Shopby/js/components/amShopbyFilterHideMoreOptions" xsi:type="array">
                                 <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/components/amShopbyFilterHideMoreOptions</item>
+                            </item>
+
+                            <item name="amShopbyFilterSearch" xsi:type="array">
+                                <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/components/amShopbyFilterSearch</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyFiltersSync" xsi:type="string">amShopbyFiltersSync</item>
+                                </item>
                             </item>
                         </item>
                     </item>

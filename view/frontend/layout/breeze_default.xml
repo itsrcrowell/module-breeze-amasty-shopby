@@ -52,6 +52,10 @@
 
                             <item name="Amasty_Shopby/js/components/amShopbyFilterCollapse" xsi:type="array">
                                 <item name="path" xsi:type="string">Amasty_Shopby/js/components/amShopbyFilterCollapse</item>
+
+                                <item name="export" xsi:type="array">
+                                    <item name="amShopbyFilterCollapse" xsi:type="string">amShopbyFilterCollapse</item>
+                                </item>
                             </item>
 
                             <item name="amShopbySwiperSlider" xsi:type="array">

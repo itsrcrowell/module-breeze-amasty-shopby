@@ -73,6 +73,51 @@
                                     <item name="amShopbyFiltersSync" xsi:type="string">amShopbyFiltersSync</item>
                                 </item>
                             </item>
+
+                            <item name="amShopbyAjax" xsi:type="array">
+                                <item name="path" xsi:type="string">Amasty_Shopby/js/amShopbyAjax</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyTopFilters" xsi:type="string">amShopbyTopFilters</item>
+                                    <item name="productListToolbarForm" xsi:type="string">productListToolbarForm</item>
+                                    <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
+                                </item>
+                            </item>
+
+                            <item name="amShopbyFilterItemDefault" xsi:type="array">
+                                <item name="path" xsi:type="string">Amasty_Shopby/js/components/amShopbyFilterItemDefault</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
+                                    <item name="amShopbyFiltersSync" xsi:type="string">amShopbyFiltersSync</item>
+                                </item>
+                            </item>
+
+                            <item name="amShopbyFilterSwatch" xsi:type="array">
+                                <item name="path" xsi:type="string">Amasty_Shopby/js/components/amShopbyFilterSwatch</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
+                                    <item name="amShopbyFiltersSync" xsi:type="string">amShopbyFiltersSync</item>
+                                </item>
+                            </item>
+
+                            <item name="amShopbyFilterCategory" xsi:type="array">
+                                <item name="path" xsi:type="string">Amasty_Shopby/js/components/amShopbyFilterCategory</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
+                                    <item name="amShopbyFiltersSync" xsi:type="string">amShopbyFiltersSync</item>
+                                </item>
+                            </item>
+
+                            <item name="amShopbyApplyFilters" xsi:type="array">
+                                <item name="path" xsi:type="string">Amasty_Shopby/js/amShopbyApplyFilters</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
+                                </item>
+                            </item>
                         </item>
                     </item>
                 </argument>

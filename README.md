@@ -42,6 +42,26 @@ with
                 }
 ```
 
+In the same function, replace (line 220):
+
+```js
+        $(document).trigger('amshopby:ajax_filter_applied');
+    } catch (e) {
+        var url = self.clearUrl ? self.clearUrl : self.options.clearUrl;
+        window.location = (this.url.indexOf('shopbyAjax') == -1) ? this.url : url;
+    }
+```
+
+with
+
+```js
+        $(document).trigger('amshopby:ajax_filter_applied');
+    } catch (e) {
+        var url = self.clearUrl ? self.clearUrl : self.options.clearUrl;
+        window.location = url; // Breeze patch
+    }
+```
+
 ## Installation
 
 ```bash

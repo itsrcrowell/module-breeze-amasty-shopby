@@ -6,7 +6,7 @@ Tested on Improved Layered Navigation by Amasty 3.3.0
 
 `vendor/amasty/shopby/view/frontend/web/js/amShopbyAjax.js`
 
-Replace the following code in the `callAjax` function (line 180):
+1. Replace the following code in the `callAjax` function (line 180):
 
 ```js
     return $.ajax({
@@ -42,7 +42,7 @@ with
                 }
 ```
 
-In the same function, replace (line 220):
+2. In the same function, replace (line 220):
 
 ```js
         $(document).trigger('amshopby:ajax_filter_applied');
@@ -59,6 +59,32 @@ with
     } catch (e) {
         var url = self.clearUrl ? self.clearUrl : self.options.clearUrl;
         window.location = url; // Breeze patch
+    }
+```
+
+3. In the `updateTopNavigation` function, replace (line 422):
+
+```js
+    if (!data.categoryProducts || data.categoryProducts.indexOf('amasty-catalog-topnav') == -1) {
+        $topNavigation = $(this.selectors.top_navigation).first();
+        $topNavigation.replaceWith(data.navigationTop);
+        // we should reinitialize element - because it was replaced
+        $topNavigation = $(this.selectors.top_navigation).first();
+        $topNavigation.trigger('contentUpdated');
+    }
+```
+
+with
+
+```js
+    if (!data.categoryProducts || data.categoryProducts.indexOf('amasty-catalog-topnav') == -1) {
+        $topNavigation = $(this.selectors.top_navigation).first();
+        if ($topNavigation.length) {
+            $topNavigation.replaceWith(data.navigationTop);
+            // we should reinitialize element - because it was replaced
+            $topNavigation = $(this.selectors.top_navigation).first();
+            $topNavigation.trigger('contentUpdated');
+        }
     }
 ```
 

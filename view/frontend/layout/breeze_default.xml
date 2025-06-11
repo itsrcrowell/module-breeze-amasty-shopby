@@ -118,6 +118,24 @@
                                     <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
                                 </item>
                             </item>
+
+                            <item name="amShopbyFilterSlider" xsi:type="array">
+                                <item name="path" xsi:type="string">Swissup_BreezeAmastyShopby/js/components/amShopbyFilterSlider</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyFilterAbstract" xsi:type="string">amShopbyFilterAbstract</item>
+                                    <item name="amShopbyHelpers" xsi:type="string">amShopbyHelpers</item>
+                                    <item name="amShopbyFiltersSync" xsi:type="string">amShopbyFiltersSync</item>
+                                </item>
+                            </item>
+
+                            <item name="Amasty_Shopby/js/components/amShopbySliderInit" xsi:type="array">
+                                <item name="path" xsi:type="string">Amasty_Shopby/js/components/amShopbySliderInit</item>
+
+                                <item name="import" xsi:type="array">
+                                    <item name="amShopbyFilterSlider" xsi:type="string">amShopbyFilterSlider</item>
+                                </item>
+                            </item>
                         </item>
                     </item>
                 </argument>
